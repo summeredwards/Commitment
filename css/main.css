@@ -21,6 +21,10 @@ h1, h2, h3{
 	color: #7d0800;
 }
 
+h1 {
+	font-size: 80px;
+}
+
 @keyframes pulse {
   0% {
     background-color: #9883E5;
