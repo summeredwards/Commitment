@@ -16,7 +16,7 @@ body {
 	animation: pulse 3s infinite;
 
 	display: grid;
-	grid-template-columns: repeat(12, 4.165%);
+	grid-template-columns: repeat(12, 4.1%);
 } 
 
 .half {
