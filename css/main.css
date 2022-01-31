@@ -16,22 +16,25 @@ body {
 	animation: pulse 5s infinite;
 
 	display: grid;
-	grid-template-columns: repeat(12, 8.333%);
+	grid-template-columns: repeat(12, 4.165%);
 } 
+
 
 .third {
 	text-align: center;
+	margin-left: 700px;
 	grid-column-end: span 8;
 }
 
 .half {
 	text-align: center;
+	margin-left: 500px;
 	grid-column-end: span 5;
 }
 
 h1, h2, h3{
 	font-family: 'Nanum Brush Script', cursive;
-	color: #7d0800;
+	color: white;
 }
 
 h1 {
