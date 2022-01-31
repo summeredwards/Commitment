@@ -14,6 +14,8 @@ body {
 	height:  100vh;
 
 	animation: pulse 5s infinite;
+
+	display: grid;
 } 
 
 h1, h2, h3{
@@ -31,6 +33,10 @@ h2 {
 
 h3 {
 	font-size: 40px;
+}
+
+.third {
+
 }
 
 @keyframes pulse {
