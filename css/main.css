@@ -19,6 +19,16 @@ body {
 	grid-template-columns: repeat(12, 8.333%);
 } 
 
+.third {
+	text-align: center;
+	grid-column-end: span 8;
+}
+
+.half {
+	text-align: center;
+	grid-column-end: span 6;
+}
+
 h1, h2, h3{
 	font-family: 'Nanum Brush Script', cursive;
 	color: #7d0800;
@@ -34,15 +44,6 @@ h2 {
 
 h3 {
 	font-size: 40px;
-}
-
-.third {
-	text-align: center;
-	grid-column-end: span 4;
-}
-
-.half {
-	grid-column-end: span 6;
 }
 
 @keyframes pulse {
