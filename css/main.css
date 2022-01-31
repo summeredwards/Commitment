@@ -23,6 +23,7 @@ body {
 	text-align: center;
 	margin-left: 500px;
 	grid-column-end: span 5;
+	padding: 0px;
 }
 
 #heart {
