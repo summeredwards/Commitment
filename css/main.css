@@ -16,6 +16,7 @@ body {
 	animation: pulse 5s infinite;
 
 	display: grid;
+	grid-template-columns: repeat(12, 8.333%);
 } 
 
 h1, h2, h3{
