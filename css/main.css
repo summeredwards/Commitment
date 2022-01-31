@@ -30,9 +30,9 @@ body {
 }
 
 #heart {
-      position: relative;
-      width: 100px;
-      height: 90px;
+    position: relative;
+    width: 100px;
+    height: 90px;
 }
 #heart:before,
 #heart:after {
