@@ -37,7 +37,14 @@ h3 {
 }
 
 .third {
-
+	margin-top:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-column-end: span 4;
 }
 
 @keyframes pulse {
