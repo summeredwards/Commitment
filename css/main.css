@@ -22,7 +22,7 @@ body {
 .half {
 	text-align: center;
 	margin-left: 500px;
-	grid-column-end: span 6;
+	grid-column-end: span 4;
 }
 
 #heart {
