@@ -76,13 +76,13 @@ h3 {
 
 @keyframes pulse {
   0% {
-    background-color: #9883E5;
+    background-color: #ba7db2; /*#ba7db2*/
   }
   50% {
-    background-color: #72A1E5;
+    background-color: #9883E5; /*#72A1E5*/
   }
   100% {
-    background-color: #9883E5;
+    background-color: #ba7db2; /*#9883E5*/ 
   }
 }
 
