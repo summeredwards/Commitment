@@ -24,6 +24,7 @@ body {
 	margin-left: 500px;
 	grid-column-end: span 5;
 	padding: 0px;
+	text-align:center;
 }
 
 #heart {
