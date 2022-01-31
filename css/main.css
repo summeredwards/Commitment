@@ -19,13 +19,6 @@ body {
 	grid-template-columns: repeat(12, 4.165%);
 } 
 
-
-.third {
-	text-align: center;
-	margin-left: 700px;
-	grid-column-end: span 8;
-}
-
 .half {
 	text-align: center;
 	margin-left: 500px;
@@ -35,6 +28,32 @@ body {
 .centered {
 	text-align: center;
 }
+
+#heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+}
+#heart:before,
+#heart:after {
+	position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+
 
 h1, h2, h3{
 	font-family: 'Nanum Brush Script', cursive;
