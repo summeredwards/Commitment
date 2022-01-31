@@ -32,6 +32,10 @@ body {
 	grid-column-end: span 5;
 }
 
+.centered {
+	text-align: center;
+}
+
 h1, h2, h3{
 	font-family: 'Nanum Brush Script', cursive;
 	color: white;
